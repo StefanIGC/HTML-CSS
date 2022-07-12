@@ -1,0 +1,221 @@
+p {
+    font-family: Montserrat;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.ceva {
+
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.video-stats {
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+}
+
+.video-author {
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+}
+
+.video-description {
+    color: rgb(96, 96, 96);
+    width: 280px;
+    line-height: 22px;
+    margin-bottom: 100px;
+}
+
+.apple {
+    margin-bottom: 100px;
+    font-size: 14px;
+    background-color: #e34140;
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+}
+
+.huinea {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.huinea:hover {
+    text-decoration: underline;
+}
+
+.c-head {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.c-mid {
+    color: rgb(96, 96, 96);
+    font-family: Verdana;
+    margin-bottom: 20px;
+}
+
+.c-bottom {
+    font-family: Verdana;
+    margin-bottom: 15px;
+    width: 260px;
+}
+
+.bottomc {
+    font-family: Verdana;
+    color: white;
+    background-color: rgb(48, 144, 48);
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    margin-bottom: 100px;
+}
+
+.d-head {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Arial;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.d-midle {
+    font-family: Arial;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.d-bottom {
+
+    font-size: 13px;
+    font-family: Arial;
+    text-align: center;
+    color: blue;
+    margin-bottom: 100px;
+}
+
+.f-lineone {
+    font-family: Arial;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.f-lineoneUSD {
+    font-size: 13;
+    font-family: Arial;
+    color: gray;
+}
+
+.f-linetwo {
+    color: green;
+    font-family: Arial;
+    font-size: 12;
+    margin-bottom: 4px;
+}
+
+.f-linetrei {
+    font-size: 13;
+    font-family: Arial;
+    color: gray;
+    margin-bottom: 200px;
+}
+
+.f-trei {
+    font-size: 13;
+    font-family: Arial;
+    color: red;
+}
+
+.g-one {
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.g-oneone {
+    font-family: Arial;
+    color: gray;
+}
+
+.g-two {
+    font-family: Arial;
+    width: 460px;
+    margin-bottom: 20px;
+}
+
+.g-tree {
+    font-family: Arial;
+    margin-bottom: 200px;
+}
+
+.g-treetree {
+    font-family: Arial;
+    color: blue;
+}
+
+.e-one {
+    font-family: Arial;
+    font-size: 12px;
+    color: orange;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.e-two {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.e-tree {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.e-four {
+    font-family: Arial;
+    color: gray;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.e-button {
+    color: white;
+    background-color: rgb(43, 43, 192);
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 417px;
+}
+
+.a-exercise {
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.a-exercisea {
+    margin-top: 0;
+    text-align: center;
+}
+.exerciseaa {
+    text-decoration: underline;
+}

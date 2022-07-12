@@ -1,0 +1,167 @@
+.subscribe {
+    color: #ffffff;
+    background-color: #FF0000;
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 8px;
+    transition: opacity 0.5s;
+    vertical-align: top;
+
+}
+
+.subscribe:hover {
+    opacity: 0.8;
+}
+
+.subscribe:active {
+    font-size: 101%;
+    opacity: 0.5;
+}
+
+.join {
+    color: rgb(26, 26, 212);
+    background-color: white;
+    border-color: rgb(26, 26, 212);
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.5s,
+        color 0.5s;
+}
+
+.join:hover {
+    background-color: rgb(26, 26, 212);
+    color: white;
+}
+
+.join:active {
+    opacity: 0.7;
+    font-size: 101%;
+}
+
+.tweet {
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 0 black;
+    transition: box-shadow 0.5s;
+    margin-right: 8px;
+    vertical-align: top;
+}
+
+.tweet:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.amazon {
+    background-color: white;
+    color: black;
+    border: gold;
+    border-style: solid;
+    border-width: 1px;
+    height: 36px;
+    width: 190px;
+    border-radius: 34px;
+    cursor: no-drop;
+    transition: background-color 0.2s;
+}
+
+.amazon:hover {
+    background-color: gold;
+
+}
+
+.amazon:active {
+    opacity: 0.8;
+}
+
+.Strech {
+    background-color: green;
+    color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 8px;
+    cursor: pointer;
+    border: none;
+    transition: padding-left 1s,
+        padding-right 1s,
+        padding-top 1s,
+        padding-bottom 1s;
+
+
+}
+
+.Strech:hover {
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Shadow {
+    background-color: green;
+    color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 8px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Shadow:active {
+    margin-top: 5px;
+    margin-left: 25px;
+    box-shadow: none;
+}
+
+.One {
+    background-color: green;
+    color: white;
+    border: none;
+
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    cursor: pointer;
+    transition: padding 0.3s,
+        margin 0.3s;
+}
+
+.One:hover {
+
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-left: 0px;
+    margin-right: 0px;
+}

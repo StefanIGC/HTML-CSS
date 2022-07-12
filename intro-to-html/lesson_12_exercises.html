@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document</title>
+    <style>
+        div {
+            font-family: Arial;
+        }
+
+        .container {
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(200, 200, 200);
+            width: 300px;
+            border-radius: 6px;
+            margin-top: 300px;
+        }
+
+        .flexbox {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        .notifications {
+            background-color: rgb(49, 109, 245);
+            color: white;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .containertwo {
+            margin-top: 700px;
+            width: 400px;
+            height: 400px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .photocat {}
+
+        .photo {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 50%;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        .information {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
+    </style>
+</head>
+
+<body style="padding-bottom: 1000px;">
+    <div style="
+        display: flex;
+    flex-direction: row;
+    ">
+        <div style="
+        background-color: lightblue;
+        width: 50px;">
+
+            item1
+
+        </div>
+
+        <div style="
+        flex: 1;
+        background-color: lightpink;
+        ">item2
+
+
+        </div>
+
+        <div style="
+        width: 75px;
+        background-color: lightblue;
+        ">item3
+
+        </div>
+
+    </div>
+
+
+
+    <div style="
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        justify-content: space-between;
+    ">
+        <div style="
+        background-color: lightpink;
+        width: 50px;">
+
+            item1
+
+        </div>
+
+        <div style="
+        width: 50px;
+        background-color: lightpink;
+        ">item2
+
+
+        </div>
+
+        <div style="
+        width: 75px;
+        background-color: lightpink;
+        ">item3
+
+        </div>
+
+        <div style="
+        width: 75px;
+        background-color: lightpink;
+        ">item4
+
+        </div>
+
+    </div>
+
+
+
+    <div style="
+            display: flex;
+            flex-direction: row;
+            margin-top: 50px;
+            justify-content: space-between;
+            height: 70px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: gray;
+            align-items: center;
+
+        ">
+        <div style="
+            background-color: lightpink;
+            width: 50px;">
+
+            item1
+
+        </div>
+
+        <div style="
+            width: 50px;
+            background-color: lightpink;
+            ">item2
+
+
+
+        </div>
+
+
+        <div class="container">
+
+            <div class="flexbox">
+                <div>Home</div>
+                <div class="notifications">14</div>
+            </div>
+
+            <div class="flexbox">
+                <div>Notifications</div>
+                <div class="notifications">3</div>
+            </div>
+
+            <div class="flexbox">
+                <div>Messages</div>
+                <div class="notifications">5</div>
+            </div>
+
+        </div>
+
+
+
+        <div class="row">
+            <div class="photocat">
+                <img class="photo" src="thumbnails/Manny-and-Dogs.jpeg">
+            </div>
+
+            <div class="information">
+                <p class="name">oliver</p>
+                <p class="handle">oliver</p>
+                <p class="category">oliver</p>
+            </div>
+            <button></button>
+        </div>
+
+        <div class="row">
+            <div class="photocat">
+                <img class="photo" src="thumbnails/Manny-and-Dogs.jpeg">
+            </div>
+            <div class="information">
+                <p class="name">oliver</p>
+                <p class="handle">oliver</p>
+                <p class="category">oliver</p>
+            </div>
+            <button></button>
+        </div>
+
+        <div class="row">
+            <div class="photocat">
+                <img class="photo" src="thumbnails/Manny-and-Dogs.jpeg">
+            </div>
+            <div class="information">
+                <p class="name">oliver</p>
+                <p class="handle">oliver</p>
+                <p class="category">oliver</p>
+            </div>
+            <button></button>
+        </div>
+
+
+
+</body>
+
+</html>
